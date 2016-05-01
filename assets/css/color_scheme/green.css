@@ -526,3 +526,24 @@ i.ico-hover:hover {
 .hvr-overline-reveal:before {
 	background-color: #00b159;
 }
+
+
+
+.btn-warning.focus, .btn-warning:focus
+{
+    background-color: #4BD7A1 !important;
+    border-color: #00b159 !important;
+    color: #fff;
+
+}
+
+
+.btn-warning
+{
+    background-color: #4BD7A1 !important;
+    border-color: #00b159 !important;
+    color: #fff;
+
+}
+
+

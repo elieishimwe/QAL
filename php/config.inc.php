@@ -3,7 +3,7 @@
 // USE SMTP OR mail()
 // SMTP is recommended, mail() is disabled on most shared hosting servers.
 // IF false : SMTP host/port/user/pass/ssl not used, leave empty or as it is!
-$config['use_smtp']				= true;						// true|false
+$config['use_smtp']				= false;						// true|false
 
 // SMTP Server Settings
 $config['smtp_host'] 			= 'smtp.gmail.com';   		// eg.: smtp.gmail.com
@@ -13,10 +13,10 @@ $config['smtp_pass'] 			= '';						// password
 $config['smtp_ssl']				= false;					// should remain false
 
 // Who receive all emails?
-$config['send_to']				= 'youremail@gmail.com';	// destination of all emails sent throught contact form
+$config['send_to']				= 'info@qalgreens.co.za';	// destination of all emails sent throught contact form
 
 // Email Subject
-$config['subject']				= 'Smarty Contact Form';	// subject of emails you receive
+$config['subject']				= 'QAL Contact Form';	// subject of emails you receive
 
 
 

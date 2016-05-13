@@ -4,8 +4,8 @@
  * @author		Dorin Grigoras [www.stepofweb.com]
  * @date		Thursday, May 21, 2015
 **/	date_default_timezone_set('Etc/UTC');
-	@ini_set('display_errors', 0);
-	@ini_set('track_errors', 0);
+	@ini_set('display_errors', 1);
+	@ini_set('track_errors', 1);
 
 	require('config.inc.php');
 
